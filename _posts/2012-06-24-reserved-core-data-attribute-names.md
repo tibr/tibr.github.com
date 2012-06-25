@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-Today I was working on server synchronisation of tasks in my upcoming app [Eisenhower](http://eisenhower.me). Of course, when a user completes a task it can't be deleted right away because the change needs to be pushed to the server. To make this invisible to the user, every task has a `deleted` attribute which gets set when the user marks it as done. I spent some time debugging and was wondering why the tasks were not going away. Ultimately, I debugged the following line:
+Today I was working on server synchronisation of tasks in my upcoming app <a href="http://eisenhower.me" target="_blank">Eisenhower</a>. Of course, when a user completes a task it can't be deleted right away because the change needs to be pushed to the server. To make this invisible to the user, every task has a `deleted` attribute which gets set when the user marks it as done. I spent some time debugging and was wondering why the tasks were not going away. Ultimately, I debugged the following line:
 
 {% highlight objc %}
 task.deleted = [NSNumber numberWithBool:YES];
