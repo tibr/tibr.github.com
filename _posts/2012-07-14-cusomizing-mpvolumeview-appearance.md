@@ -6,7 +6,7 @@ Everybody loves MPVolumeView, it's the best way to control the volume when playi
 
 However, MPVolumeView doesn't offer these customization options because it doesn't expose its UISlider. So what do you do if your designer creates an awesome looking volume slider? Write your own MPVolumeView? That's probably a bad idea...
 
-In this post, I'll show you how you can customize the appearance MPVolumeView to go from this
+In this post, I'll show you how to customize the appearance MPVolumeView to go from this
 
 ![MPVolumeView](/img/MPVolumeView_default.png)
 
@@ -16,7 +16,7 @@ to this
 
 ### Accessing the UISlider
 
-First, we need to find the UISlider in the MPVolueViews subviews. Luckily, it only contains one UISlider so we can find it like this:
+First, we need to find the UISlider in the MPVolueViews subviews. Luckily for us it only contains one UISlider so we can find it like this:
 
 {% highlight objc %}
 for (id current in volumeView.subviews){
