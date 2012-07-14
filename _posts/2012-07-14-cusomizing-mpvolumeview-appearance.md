@@ -95,7 +95,8 @@ we need to add it to the MPVolumeView:
 {% highlight objc %}
 class_addMethod(NSClassFromString(@"MPVolumeSlider"),
                 @selector(trackRectForBounds:),
-                class_getMethodImplementation([SFYVolumeSlider class], @selector(trackRectForBounds:)),
+                class_getMethodImplementation([SFYVolumeSlider class],
+                 @selector(trackRectForBounds:)),
                 "{CGRect={CGPoint=dd}{CGSize=dd}}@:");
 {% endhighlight %}
 
