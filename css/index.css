@@ -1,0 +1,31 @@
+body {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.icon-6x {
+  font-size: 6em;
+}
+
+.icon-6x.icon-border {
+  border-width: 6px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.icon-8x {
+  font-size: 8em;
+}
+
+.icon-8x.icon-border {
+  border-width: 8px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.tile {
+  background-color: #333333;
+  text-align: center;
+}
