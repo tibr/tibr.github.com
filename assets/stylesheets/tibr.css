@@ -1,0 +1,40 @@
+body {
+  color: #ffffff;
+  background-color: #000000;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.lead {
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+p {
+  margin: 0 0 10px
+}
+
+img {
+  max-width: 100%;
+}
+
+#hero {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.tile {
+  background-color: #333333;
+  text-align: center;
+
+  /* Evil height fix: http://stackoverflow.com/questions/5445491/height-equal-to-dynamic-width-css-fluid-layout */
+  /*position: relative;
+  height: 0;
+  padding-bottom: 90%;*/
+
+  padding: 40px;
+}
+
+.tile:hover { 
+  background-color: #bbbbbb;
+}
