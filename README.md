@@ -1,4 +1,21 @@
-tibr.me
-===============
+# Unsemantic CSS Framework
 
-This is my blog. There are many like it, but this one is mine.
+This is a fluid grid system for desktop & mobile.
+
+---
+
+Read more here...
+
+http://unsemantic.com
+
+---
+
+This is dual-licensed this under MIT and GPL.
+
+Basically, you can use the code under whichever license you prefer.
+
+http://opensource.org/licenses/mit-license.php
+
+http://www.gnu.org/licenses/gpl.html
+
+(Some open source projects, such as WordPress and Drupal, require GPL.)
